@@ -1,15 +1,15 @@
 {
-  "name": "my-nodejs-demo-app",
-  "version": "1.0.0",
-  "description": "a simple node js project for learning purpose",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "express": "^4.19.2",
+    "upper-case": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "my-nodejs-demo-app",
+  "description": "a simple node js project for learning purpose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
